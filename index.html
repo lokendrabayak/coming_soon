@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 25px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .email-box {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    input {
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      outline: none;
+      width: 70%;
+    }
+
+    button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px;
+      background: #fff;
+      color: #333;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #333;
+      color: white;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .email-box {
+        flex-direction: column;
+      }
+
+      input {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Coming Soon 🚀</h1>
+    <p>We are working hard to launch something amazing. Stay tuned!</p>
+
+    <div class="email-box">
+      <input type="email" placeholder="Enter your email">
+      <button>Notify Me</button>
+    </div>
+
+    <footer>
+      © 2026 Your Brand
+    </footer>
+  </div>
+
+</body>
+</html>
